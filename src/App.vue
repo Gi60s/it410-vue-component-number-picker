@@ -1,18 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- 5. Add a number picker component with no minimum or maximum. This value ties to the "min" value -->
+    
+    <!-- 4. Add a number picker component with minimum and maximum set from the other two pickers. This value ties to the "value" value -->
+
+    <!-- 6. Add a number picker component with no minimum or maximum. This value ties to the "max" value -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// 1. Import the number picker component
 
 export default {
   name: 'app',
+  
   components: {
-    HelloWorld
+    // 2. Add the number-picker component as a dependency here
   }
+
+  // 3. Create a data object with "min" = 0, "max" = 10, and "value" = 0 
 }
 </script>
 <style lang="stylus">
