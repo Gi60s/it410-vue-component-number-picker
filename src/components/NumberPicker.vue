@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'number-picker',
+  name: 'number-picker'
   // 1. Add "props" to accept "value" attribute (it must be a number and defaults to zero)
 
   // 2. Add "props" to accept "min" attribute (it must be a number)
